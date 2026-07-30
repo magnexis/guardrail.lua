@@ -1,0 +1,10 @@
+.rocks/
+.rocks2/
+*.rock
+*.src.rock
+coverage/
+*.log
+.luacheckcache/
+.DS_Store
+Thumbs.db
+assets/*-source.png
