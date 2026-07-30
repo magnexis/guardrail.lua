@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/magnexis/guardrail.lua/actions/workflows/test.yml"><img src="https://github.com/magnexis/guardrail.lua/actions/workflows/test.yml/badge.svg" alt="CI status" /></a>
-  <a href="https://luarocks.org/modules/magnexis/guardrail"><img src="https://img.shields.io/luarocks/v/magnexis/guardrail?label=LuaRocks" alt="LuaRocks version" /></a>
+  <a href="https://luarocks.org/modules/magnexis/guardrail.lua"><img src="https://img.shields.io/luarocks/v/magnexis/guardrail.lua?label=LuaRocks" alt="LuaRocks version" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-3b82f6.svg" alt="MIT license" /></a>
   <a href="https://www.lua.org/"><img src="https://img.shields.io/badge/Lua-5.1--5.4%20%7C%20LuaJIT-000080.svg" alt="Lua 5.1 through 5.4 and LuaJIT" /></a>
 </p>
@@ -41,7 +41,7 @@ luarocks install guardrail
 
 For a checkout, run `luarocks make guardrail-scm-1.rockspec`. Source lives under `guardrail`; LuaRocks installs it as `guardrail`. Release metadata is in `guardrail-0.1.0-1.rockspec`; see [RELEASE.md](RELEASE.md).
 
-The official package page is [LuaRocks: magnexis/guardrail](https://luarocks.org/modules/magnexis/guardrail).
+The official package page is [LuaRocks: magnexis/guardrail.lua](https://luarocks.org/modules/magnexis/guardrail.lua).
 
 ## Why guardrail?
 
