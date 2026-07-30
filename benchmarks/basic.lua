@@ -1,4 +1,4 @@
-package.path = "src/?.lua;src/?/init.lua;" .. package.path
+package.path = "./?.lua;./?/init.lua;" .. package.path
 local guard = require("guardrail")
 local schema = guard.table({ id = guard.integer({ positive = true }), tags = guard.array(guard.string()) })
 local value = { id = 1, tags = { "lua", "validation" } }

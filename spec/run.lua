@@ -1,4 +1,4 @@
-package.path = "src/?.lua;src/?/init.lua;" .. package.path
+package.path = "./?.lua;./?/init.lua;" .. package.path
 local guard = require("guardrail")
 local total = 0
 local function test(name, fn) total = total + 1; local ok, err = pcall(fn); if not ok then error(name .. ": " .. tostring(err), 0) end end

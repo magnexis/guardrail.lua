@@ -1,4 +1,4 @@
-package.path = "src/?.lua;src/?/init.lua;" .. package.path
+package.path = "./?.lua;./?/init.lua;" .. package.path
 local guard = require("guardrail")
 
 local balance = guard.invariant({ name = "non_negative_balance", check = function(account) return account.balance >= 0 end, message = "account balance cannot be negative" })
