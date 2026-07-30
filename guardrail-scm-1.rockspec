@@ -3,11 +3,11 @@
 rockspec_format = "3.0"
 package = "guardrail"
 version = "scm-1"
-source = { url = "git://github.com/magnexis/guardrail" }
+source = { url = "git://github.com/magnexis/guardrail.lua" }
 description = {
   summary = "Runtime contracts and structured validation for Lua.",
   detailed = "A dependency-free runtime validation library for Lua applications.",
-  homepage = "https://github.com/magnexis/guardrail",
+  homepage = "https://github.com/magnexis/guardrail.lua",
   license = "MIT"
 }
 dependencies = { "lua >= 5.1" }

@@ -1,11 +1,11 @@
 rockspec_format = "3.0"
 package = "guardrail"
 version = "0.1.0-1"
-source = { url = "git://github.com/magnexis/guardrail", tag = "v0.1.0" }
+source = { url = "git://github.com/magnexis/guardrail.lua", tag = "v0.1.0" }
 description = {
   summary = "Runtime contracts and structured validation for Lua.",
   detailed = "A dependency-free runtime validation library for Lua 5.1 through 5.4 and LuaJIT.",
-  homepage = "https://github.com/magnexis/guardrail",
+  homepage = "https://github.com/magnexis/guardrail.lua",
   license = "MIT"
 }
 dependencies = { "lua >= 5.1" }
