@@ -2,6 +2,7 @@
 .rocks2/
 *.rock
 *.src.rock
+!guardrail.lua-0.1.0-1.src.rock
 coverage/
 *.log
 .luacheckcache/

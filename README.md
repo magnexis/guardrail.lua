@@ -7,13 +7,13 @@
 <p align="center">Runtime contracts and structured validation for Lua.</p>
 
 <p align="center">
-  <a href="https://github.com/magnexis/guardrail-lua/actions/workflows/test.yml"><img src="https://github.com/magnexis/guardrail-lua/actions/workflows/test.yml/badge.svg" alt="CI status" /></a>
+  <a href="https://github.com/magnexis/guardrail/actions/workflows/test.yml"><img src="https://github.com/magnexis/guardrail/actions/workflows/test.yml/badge.svg" alt="CI status" /></a>
   <a href="https://luarocks.org/modules/magnexis/guardrail"><img src="https://img.shields.io/luarocks/v/magnexis/guardrail?label=LuaRocks" alt="LuaRocks version" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-3b82f6.svg" alt="MIT license" /></a>
   <a href="https://www.lua.org/"><img src="https://img.shields.io/badge/Lua-5.1--5.4%20%7C%20LuaJIT-000080.svg" alt="Lua 5.1 through 5.4 and LuaJIT" /></a>
 </p>
 
-[![CI](https://github.com/magnexis/guardrail-lua/actions/workflows/test.yml/badge.svg)](https://github.com/magnexis/guardrail-lua/actions/workflows/test.yml)
+[![CI](https://github.com/magnexis/guardrail/actions/workflows/test.yml/badge.svg)](https://github.com/magnexis/guardrail/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Lua 5.1–5.4](https://img.shields.io/badge/Lua-5.1--5.4%20%7C%20LuaJIT-blue.svg)](https://www.lua.org/)
 
@@ -39,7 +39,7 @@ end)
 luarocks install guardrail
 ```
 
-For a checkout, run `luarocks make guardrail-scm-1.rockspec`. Source lives under `src/guardrail`; LuaRocks installs it as `guardrail`. Release metadata is in `guardrail-0.1.0-1.rockspec`; see [RELEASE.md](RELEASE.md).
+For a checkout, run `luarocks make guardrail-scm-1.rockspec`. Source lives under `guardrail`; LuaRocks installs it as `guardrail`. Release metadata is in `guardrail-0.1.0-1.rockspec`; see [RELEASE.md](RELEASE.md).
 
 The official package page is [LuaRocks: magnexis/guardrail](https://luarocks.org/modules/magnexis/guardrail).
 

@@ -1,5 +1,5 @@
 rockspec_format = "3.0"
-package = "guardrail"
+package = "guardrail.lua"
 version = "0.1.0-1"
 source = { url = "git://github.com/magnexis/guardrail", tag = "v0.1.0" }
 description = {
