@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/magnexis/guardrail.lua/actions/workflows/test.yml"><img src="https://github.com/magnexis/guardrail.lua/actions/workflows/test.yml/badge.svg" alt="CI status" /></a>
+  <a href="https://github.com/magnexis/guardrail.lua/releases/tag/v0.1.0"><img src="https://img.shields.io/github/v/release/magnexis/guardrail.lua?display_name=tag&label=GitHub%20Release" alt="GitHub release" /></a>
   <a href="https://luarocks.org/modules/magnexis/guardrail.lua"><img src="https://img.shields.io/luarocks/v/magnexis/guardrail.lua?label=LuaRocks" alt="LuaRocks version" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-3b82f6.svg" alt="MIT license" /></a>
   <a href="https://www.lua.org/"><img src="https://img.shields.io/badge/Lua-5.1--5.4%20%7C%20LuaJIT-000080.svg" alt="Lua 5.1 through 5.4 and LuaJIT" /></a>
@@ -18,6 +19,12 @@
 [![Lua 5.1–5.4](https://img.shields.io/badge/Lua-5.1--5.4%20%7C%20LuaJIT-blue.svg)](https://www.lua.org/)
 
 Runtime contracts and structured validation for Lua.
+
+## Official links
+
+- [Download guardrail.lua v0.1.0 on GitHub Releases](https://github.com/magnexis/guardrail.lua/releases/tag/v0.1.0)
+- [Install or browse guardrail.lua on LuaRocks](https://luarocks.org/modules/magnexis/guardrail.lua)
+- [Visit the project site](https://magnexis.github.io/guardrail.lua/)
 
 ```lua
 local guard = require("guardrail")
